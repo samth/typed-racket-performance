@@ -1,7 +1,7 @@
 #lang racket
 
-(require (prefix-in topq: "tr-pfds/pfds/queue/real-time.rkt"))
-(require (prefix-in disjq: "tr-pfds/pfds/queue/real-time.rkt"))
+(require (prefix-in topq: "tr-pfds-nocheck/pfds/queue/real-time.rkt"))
+(require (prefix-in disjq: "tr-pfds-nocheck/pfds/queue/real-time.rkt"))
 (require (rename-in (only-in "mk.rkt" var reify == symbolo numbero absento =/=)
                     [== ==-goal]
                     [symbolo symbolo-goal]
